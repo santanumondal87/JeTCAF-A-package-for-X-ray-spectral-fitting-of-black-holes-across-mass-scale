@@ -3,6 +3,6 @@ The JeTCAF model description can be found in the paper by Mondal & Chakrabarti (
 To make the model available for the community, we have prepared a FITS file using a multi-dimensional parameter grid. Presently, I have prepared a FITS file for AGN only. I am preparing FITS files for BXRBS and for ULXs as well, which will be available soon. 
 
 JeTCAF model has six parameters, namely: i) black hole mass ($M_{BH}$) in units of $M_\odot$,
-ii) Keplerian rate ($\dot{m_d}$ in units of $\dot{M_Edd}$), iii) sub-Keplerian rate ($\dot{m_h}$ in units of
+ii) Keplerian rate ($\dot{m}_d$ in units of $`\dot{M}_{Edd}`$), iii) sub-Keplerian rate ($\dot{m_h}$ in units of
 $\dot{M}_{Edd}$), iv) location of the shock ($X_s$ in $r_g$), v) compression ratio ($R=\rho_+ / \rho_-$, where $\rho_+$ and
 $\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor f$_{\rm col}$.
