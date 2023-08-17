@@ -12,6 +12,6 @@ $\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) je
 A cartoon diagram of the JeTCAF model is shown below. 
 ![jetted](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/a34e60aa-b22b-49bf-86a6-af605c48a384)
 
-![jetcaf-spec](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/88e52308-bf76-47fe-a6ed-889439d1654c)
-
 And corresponding model components are given below.
+
+![jetcaf-spec](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/88e52308-bf76-47fe-a6ed-889439d1654c)
