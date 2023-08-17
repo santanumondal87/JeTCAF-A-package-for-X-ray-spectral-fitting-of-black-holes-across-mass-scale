@@ -14,7 +14,7 @@ A cartoon diagram of the JeTCAF model and corresponding spectral components are 
 
 
 
-After successfully making the {\it FITS} file, data can be fitted by loading the fits file in XSPEC. Here, I show the command that can be used to load the model in XSPEC.
+After successfully making the FITS file, data can be fitted by loading the fits file in XSPEC. Here, I show the command that can be used to load the model in XSPEC.
 
 
 
@@ -36,10 +36,10 @@ XSPEC12>ig 1:**-0.5 70.0-**
 XSPEC12>ig 2:**-0.5 70.0-**
 
 
-Once the data is loaded, it can be modeled using JeTCAF, by loading the {\it FITS} files as a local additive table model below.
+Once the data is loaded, it can be modeled using JeTCAF, by loading the FITS files as a local additive table model below.
 This command prompt will ask for a guess value of the model parameters. It will be helpful if one has some idea of the spectral state of the outburst phase.
 That will help to give the guess value, on the other hand, one can also give a blind guess and check the
-evolution of the parameters. Here, I used a multiplicative model TBabs, which is a galactic absorption model and /home/Softwares/LMODELS/ is the
+evolution of the parameters. Here, I used a multiplicative model TBabs, which is a galactic absorption model, and /home/Softwares/LMODELS/ is the
 path of the directory where the fits file is located. Commands for loading the model and fitting the data are:
 
 
