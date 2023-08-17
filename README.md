@@ -17,7 +17,7 @@ A cartoon diagram of the `JeTCAF` model and corresponding spectral components ar
 
 
 
-After successfully making the `FITS` file, data can be fitted by loading the fits file in `XSPEC`. Here, I show the command that can be used to load the model in `XSPEC`.
+After successfully making the `FITS` file, data can be fitted by loading the fits file in `XSPEC`. Here, I put the commands that can be used to load both data and the model in `XSPEC`.
 
 
 
@@ -29,14 +29,7 @@ XSPEC12>data 2:2 spec2.pha
 
 
 
-One can specify the energy band in which data need to be analyzed which includes good statistics by ignoring the rest.
-The following command does that.
-
-
-XSPEC12>ig 1:$**$-0.5 70.0-$**$
-
-
-XSPEC12>ig 2:$**$-0.5 70.0-$**$
+One can specify the energy band in which data need to be analyzed which includes good statistics by ignoring the rest using `ig` command.
 
 
 Once the data is loaded, it can be modeled using `JeTCAF`, by loading the `FITS` files as a local additive table model below.
@@ -53,4 +46,10 @@ path of the directory where the fits file is located. Commands for loading the m
 XSPEC12>fit
 
 
+
+For any queries regarding the model fitting or any updates, please contact me here: `santanuicsp@gmail.com`
+
+
+
+If you are publishing anything using the model fits file, please cite the paper: `Mondal & Chakrabarti, 2021, ApJ, 920, 41`
 
