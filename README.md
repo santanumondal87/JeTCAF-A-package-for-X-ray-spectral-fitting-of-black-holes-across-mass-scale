@@ -1,2 +1,2 @@
-# tcaf
-X-ray data analysis fitting tools 
+JeTCAF: A package for X-ray spectral fitting of black holes across mass scale
+
