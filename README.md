@@ -14,24 +14,40 @@ A cartoon diagram of the JeTCAF model and corresponding spectral components are 
 
 
 
-After successfully making the {\it FITS} file, data can be fitted by loading the fits file in XSPEC. Here, we use the sample data of
-the black hole candidate Swift~J1357.2-0933 from simultaneous ${\it NuSTAR}$ and ${\it Swift/XRT}$ observations
-(Mondal \& Chakrabarti 2019). The command below shows loading the data (spectrum files from NuSTAR and Swift/XRT analysis),
-\\
-\colorbox{Mygray}{{XSPEC12$>$data 1:1 spec1.pha}}\\
-\colorbox{Mygray}{XSPEC12$>$data 2:2 spec2.pha}\\
+After successfully making the {\it FITS} file, data can be fitted by loading the fits file in XSPEC. Here, I show the command that can be used to load the model in XSPEC.
+
+
+
+XSPEC12>data 1:1 spec1.pha
+
+
+
+XSPEC12>data 2:2 spec2.pha
+
+
+
 One can specify the energy band in which data need to be analyzed which includes good statistics by ignoring the rest.
-The following command does that.\\
-\colorbox{Mygray}{{\noindent XSPEC12$>$ig 1:**-0.5 70.0-**}}\\
-\colorbox{Mygray}{XSPEC12$>$ig 2:**-0.5 70.0-**}\\
-Once the data is loaded, it can be modeled using TCAF, by loading the {\it FITS} files as a local additive table model below.
-This command prompt will ask for a guess value of the model parameters. It will be helpful, if one has some sense of
-spectral state of the outburst phase, as we already discussed, TCAF model parameters vary in multidimensional space.
-That will help to give the guess value, on the otherhand one can also give a blind guess and check the
-evolution of the parameters. Here, TBabs is the galactic absorption model and {\it /home/Softwares/LMODELS/} is the
-path of the directory where the fits file is located.\\
-\colorbox{Mygray}{{\noindent XSPEC12$>$model TBabs(atable\{/home/Softwares/LMODELS/TCAF.fits\})}}\\
-\colorbox{Mygray}{XSPEC12$>$fit}\\
+The following command does that.
+
+
+XSPEC12>ig 1:**-0.5 70.0-**
+
+
+XSPEC12>ig 2:**-0.5 70.0-**
+
+
+Once the data is loaded, it can be modeled using JeTCAF, by loading the {\it FITS} files as a local additive table model below.
+This command prompt will ask for a guess value of the model parameters. It will be helpful if one has some idea of the spectral state of the outburst phase.
+That will help to give the guess value, on the other hand, one can also give a blind guess and check the
+evolution of the parameters. Here, I used a multiplicative model TBabs, which is a galactic absorption model and /home/Softwares/LMODELS/ is the
+path of the directory where the fits file is located. Commands for loading the model and fitting the data are:
+
+
+
+XSPEC12>model TBabs*(atable{/home/Softwares/LMODELS/JeTCAF.fits})
+
+
+XSPEC12>fit
 
 
 
