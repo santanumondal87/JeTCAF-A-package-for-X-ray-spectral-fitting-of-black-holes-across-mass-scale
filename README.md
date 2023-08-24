@@ -1,4 +1,4 @@
-#JeTCAF Model and how to use it for spectral fitting
+# JeTCAF Model and how to use it for spectral fitting
 
 
 Jet in Two Component Advective Flow (`JeTCAF`; 2021, ApJ, 920, 41) model is an X-ray data analysis package. The `TCAF` model which was proposed by `Chakrabarti & Titarchuk` (in 1995, arXiv preprint astro-ph/9510005) has been recently upgraded after implementing jet/mass outflows from the inner hot region, which is known as the corona, or Compton cloud or CENBOL (CENtrifugal pressure supported BOundary Layer).
@@ -6,6 +6,7 @@ The JeTCAF model description can be found in the paper by `Mondal & Chakrabarti 
 To make the model available for the community, we have prepared a `FITS` file using a multi-dimensional parameter grid. Presently, I have prepared a `FITS` file for `AGN` only. I am preparing `FITS` files for `BXRBS` and `ULXs` as well, which will be available soon.  
 
 
+## JeTCAF model parameters
 
 `JeTCAF` model has six parameters, namely: i) black hole mass ($M_{BH}$) in units of $M_\odot$,
 ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{M}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
@@ -19,6 +20,7 @@ A cartoon diagram of the `JeTCAF` model and corresponding spectral components ar
 ![jetted](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/a34e60aa-b22b-49bf-86a6-af605c48a384) ![jetcaf-spec-standard](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/90cb5b1f-a9fa-4663-92d2-1938c1e4e32a)
 
 
+## Loading the fits file in XSPEC and command for fitting data
 
 After successfully making the `FITS` file, data can be fitted by loading the fits file in `XSPEC`. Here, I put the commands that can be used to load both data and the model in `XSPEC`.
 
@@ -48,9 +50,9 @@ path of the directory where the fits file is located. Commands for loading the m
 
 XSPEC12>fit
 
+### helpdesk
 
-
-For any queries regarding data fitting, fits file updates, or any fits file with specific sweet spot of parameters, please contact me here: `santanuicsp@gmail.com`
+For any queries regarding data fitting, fits file updates, or fits file with any specific sweet spot of parameters, please contact me here: `santanuicsp@gmail.com`
 
 
 
