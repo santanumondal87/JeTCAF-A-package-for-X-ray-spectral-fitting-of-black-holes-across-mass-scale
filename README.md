@@ -50,11 +50,11 @@ path of the directory where the fits file is located. Commands for loading the m
 
 XSPEC12>fit
 
-### helpdesk
+## helpdesk
 
 For any queries regarding data fitting, fits file updates, or fits file with any specific sweet spot of parameters, please contact me here: `santanuicsp@gmail.com`
 
-
+## Citation
 
 If you are publishing anything using the model fits file, please cite the paper: `Mondal & Chakrabarti, 2021, ApJ, 920, 41`
 
