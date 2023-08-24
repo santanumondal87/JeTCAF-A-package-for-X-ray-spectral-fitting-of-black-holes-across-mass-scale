@@ -12,6 +12,8 @@ To make the model available for the community, we have prepared a `FITS` file us
 ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{M}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
 $`\dot{M}_{\rm Edd}`$), iv) location of the shock ($X_s$ in $r_g$), v) compression ratio ($R=\rho_+ / \rho_-$, where $\rho_+$ and
 $\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. 
+
+
 According to `TCAF` or `JeTCAF`, spectra become soft with increasing disk mass accretion rate, when all other parameters are fixed and hard 
 with the increase in halo accretion rate. Increase in dynamic corona size or $X_s$, spectra become hard, however,
 after a certain value of $X_s$ the scenario may change as the optical depth of the corona depends on $X_s$. Therefore, the above description is to get a
@@ -24,6 +26,17 @@ A cartoon diagram of the `JeTCAF` model and corresponding spectral components ar
 
 
 ![jetted](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/a34e60aa-b22b-49bf-86a6-af605c48a384) ![jetcaf-spec-standard](https://github.com/santanumondal87/JeTCAF-A-package-for-X-ray-spectral-fitting-of-black-holes-across-mass-scale/assets/34309461/90cb5b1f-a9fa-4663-92d2-1938c1e4e32a)
+
+
+## Spectral Components
+
+The emergent spectrum from `JeTCAF` has four components; `(1)` a multicolor black-body spectrum coming from the disk, `(2)` hard radiation from the upscattering of the soft photons from
+the disk by the hot corona, `(3)` a second hard component at the shoulder of the black-body bump is due to scattering of soft photons from the disc by the base of the jet, and 
+`(4)` down-scattering of hard radiation from the corona by the bulk motion of the jet produces excess above 10 keV. This component also fits the Compton humps that are observed in reflection models. 
+In this model, the same corona, which is producing hard radiation, is also launching a jet at its base. The jet/mass outflow rate is obtained after solving a series of coupled hydrodynamic equations; 
+thus, it naturally connects the disk and jet.
+
+
 
 
 ## Loading the fits file in XSPEC and command for fitting data
@@ -55,6 +68,8 @@ path of the directory where the fits file is located. Commands for loading the m
 
 
 XSPEC12>fit
+
+One can use `steppar` command to generate confidence contour among parameters as was done in `S. Mondal, T. P. Adhikari, K. Hryniewicz, C. S. Stalin, and A. Pandey, 2022, A&A, 662, 77`
 
 ## helpdesk
 
