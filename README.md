@@ -1,4 +1,4 @@
-##JeTCAF Model and how to use it for spectral fitting
+#JeTCAF Model and how to use it for spectral fitting
 
 
 Jet in Two Component Advective Flow (`JeTCAF`; 2021, ApJ, 920, 41) model is an X-ray data analysis package. The `TCAF` model which was proposed by `Chakrabarti & Titarchuk` (in 1995, arXiv preprint astro-ph/9510005) has been recently upgraded after implementing jet/mass outflows from the inner hot region, which is known as the corona, or Compton cloud or CENBOL (CENtrifugal pressure supported BOundary Layer).
