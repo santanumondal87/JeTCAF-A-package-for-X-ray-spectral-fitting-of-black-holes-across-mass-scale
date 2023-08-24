@@ -50,7 +50,7 @@ XSPEC12>fit
 
 
 
-For any queries regarding the model fitting or any updates, please contact me here: `santanuicsp@gmail.com`
+For any queries regarding data fitting, fits file updates, or any fits file with specific sweet spot of parameters, please contact me here: `santanuicsp@gmail.com`
 
 
 
