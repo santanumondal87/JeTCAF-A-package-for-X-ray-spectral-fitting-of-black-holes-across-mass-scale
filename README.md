@@ -31,9 +31,9 @@ A cartoon diagram of the `JeTCAF` model and corresponding spectral components ar
 
 ## Spectral Components
 
-The emergent spectrum from `JeTCAF` has four components; `(1)` a multicolor black-body spectrum coming from the disk, `(2)` hard radiation from the upscattering of the soft photons from
-the disk by the hot corona, `(3)` a second hard component at the shoulder of the black-body bump is due to scattering of soft photons from the disc by the base of the jet, and 
-`(4)` down-scattering of hard radiation from the corona by the bulk motion of the jet produces excess above 10 keV. This component also fits the Compton humps that are observed in reflection models. 
+The emergent spectrum from `JeTCAF` has four components; `(1)` a multicolor black-body spectrum coming from the disk (green), `(2)` hard radiation from the upscattering of the soft photons from
+the disk by the hot corona (red), `(3)` a second hard component at the shoulder of the black-body bump is due to scattering of soft photons from the disc by the base of the jet (blue), and 
+`(4)` down-scattering of hard radiation from the corona by the bulk motion of the jet produces excess above 10 keV (indigo). This component also fits the Compton humps that are observed in reflection models. 
 In this model, the same corona, which is producing hard radiation, is also launching a jet at its base. The jet/mass outflow rate is obtained after solving a series of coupled hydrodynamic equations; 
 thus, it naturally connects the disk and jet.
 
