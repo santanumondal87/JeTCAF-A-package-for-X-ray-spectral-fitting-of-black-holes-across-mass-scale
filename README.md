@@ -3,7 +3,7 @@
 
 Jet in Two Component Advective Flow (`JeTCAF`; 2021, ApJ, 920, 41) model is an X-ray data analysis package. The `TCAF` model which was proposed by `Chakrabarti & Titarchuk` (in 1995, arXiv preprint astro-ph/9510005, ApJ, 455, 623) 
 has been recently upgraded after implementing jet/mass outflows from the inner hot region, which is known as the corona, or Compton cloud or CENBOL (CENtrifugal pressure supported BOundary Layer).
-The JeTCAF model description can be found in the paper by `Mondal & Chakrabarti (2021, ApJ, 920, 41)`. In this original paper, the model is directly implemented in `XSPEC` as a local model using `initpackage` command and fitted the data of `Black Hole X-ray Binaries`. Later, following the same method the model has been applied to fit the data of `AGNs (Mondal et al. 2022, A&A, 662, 77)`, and `ULXs (Palit & Mondal, 2023, PASP, 135, 054101)` respectively.
+The JeTCAF model description can be found in the paper by `Mondal & Chakrabarti (2021, ApJ, 920, 41)`. In this original paper, the model is directly implemented in `XSPEC` as a local model using `initpackage` command and fitted the data of `Black Hole X-ray Binaries (BHXRBs)`. Later, following the same method the model was applied to fit the data of `AGNs (Mondal et al. 2022, A&A, 662, 77)`, and `ULXs (Palit & Mondal, 2023, PASP, 135, 054101)` respectively.
 To make the model available for the community, we have prepared a `FITS` file using a multi-dimensional parameter grid. Presently, I have prepared a `FITS` file for `AGN` only. I am preparing `FITS` files for `BXRBS` and `ULXs` as well, which will be available soon.  
 
 
@@ -54,7 +54,7 @@ XSPEC12>data 2:2 spec2.pha
 
 
 
-One can specify the energy band in which data need to be analyzed which includes good statistics by ignoring the rest using `ig` command.
+One can specify the energy band in which data needs to be analyzed which includes good statistics by ignoring the rest using `ig` command.
 
 
 Once the data is loaded, it can be modeled using `JeTCAF`, by loading the `FITS` files as a local additive table model below.
