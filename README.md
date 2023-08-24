@@ -11,8 +11,9 @@ To make the model available for the community, we have prepared a `FITS` file us
 `JeTCAF` model has six parameters, namely: i) black hole mass ($M_{BH}$) in units of $M_\odot$,
 ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{M}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
 $`\dot{M}_{\rm Edd}`$), iv) location of the shock ($X_s$ in $r_g$), v) compression ratio ($R=\rho_+ / \rho_-$, where $\rho_+$ and
-$\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. According to `TCAF` or `JeTCAF`, spectra become 
-soft with increasing disk mass accretion rate, when all other parameters are fixed and hard with the increase in halo accretion rate. Increase in dynamic corona size or $X_s$, spectra become hard, however,
+$\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. 
+According to `TCAF` or `JeTCAF`, spectra become soft with increasing disk mass accretion rate, when all other parameters are fixed and hard 
+with the increase in halo accretion rate. Increase in dynamic corona size or $X_s$, spectra become hard, however,
 after a certain value of $X_s$ the scenario may change as the optical depth of the corona depends on $X_s$. Therefore, the above description is to get a
 zeroth order idea about the dependence of spectral shape with model parameters, however, when we fit data, parameters change in multidimensional space where things are highly non-linear. 
 Therefore, I suggest searching for parameters that seem physical and follow theoretical understanding.
