@@ -72,6 +72,8 @@ XSPEC12>fit
 
 One can use `steppar` command to generate confidence contour among parameters as was done in `S. Mondal, T. P. Adhikari, K. Hryniewicz, C. S. Stalin, and A. Pandey, 2022, A&A, 662, 77`
 
+`Note:` Since $`M_{BH}`$ is a parameter in the model, one can estimate its value from the fit. For that one can keep it free, however, that can also give higher uncertainties in other parameters. So, it is suggestive to first achieve the best-fit by keeping the mass free and then freeze it to that value. If you still get large uncertainties, use the method to estimate error for one parameter of interest.
+
 ## helpdesk
 
 For any queries regarding data fitting, fits file updates, or fits file with any specific sweet spot of parameters, please contact me here: `santanuicsp@gmail.com`
