@@ -37,7 +37,11 @@ the disk by the hot corona (red), `(3)` a second hard component at the shoulder 
 In this model, the same corona, which is producing hard radiation, is also launching a jet at its base. The jet/mass outflow rate is obtained after solving a series of coupled hydrodynamic equations; 
 thus, it naturally connects the disk and jet.
 
+## Link to FITS file
 
+The FITS file can be available from the link below soon:
+
+https://drive.google.com/drive/folders/1MzCZRgKNDmIcJm2ghhByxXaZ2b7nCAWV?usp=sharing
 
 
 ## Loading the fits file in XSPEC and command for fitting data
