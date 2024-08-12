@@ -44,7 +44,7 @@ The FITS file can be available from the link below soon:
 https://drive.google.com/drive/folders/1MzCZRgKNDmIcJm2ghhByxXaZ2b7nCAWV?usp=sharing
 
 
-## Loading the fits file in XSPEC and command for fitting data
+## Loading the fits file in XSPEC and commands for fitting the data
 
 After successfully making the `FITS` file, data can be fitted by loading the fits file in `XSPEC`. Here, I put the commands that can be used to load both data and the model in `XSPEC`.
 
