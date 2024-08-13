@@ -13,7 +13,7 @@ To make the model available for the community, we planned to make `FITS` files u
 ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{M}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
 $`\dot{M}_{\rm Edd}`$), iv) location of the shock ($X_s$ in $r_g$), v) compression ratio ($R=\rho_+ / \rho_-$, where $\rho_+$ and
 $\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. If one sets the 
-$`f_{\rm col}`$ parameter fixed to a very low value, say 0.001 in this current fits file, the model will be the same as TCAF.
+$`f_{\rm col}`$ parameter fixed to a very low value, say 0.001 in this current fits file, the model will be quite similar to TCAF.
 
 
 According to `TCAF` or `JeTCAF`, spectra become soft with increasing disk mass accretion rate, when all other parameters are fixed and hard 
