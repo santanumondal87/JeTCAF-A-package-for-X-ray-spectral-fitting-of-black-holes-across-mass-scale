@@ -10,8 +10,8 @@ To make the model available for the community, we planned to make `FITS` files u
 ## JeTCAF model parameters
 
 `JeTCAF` model has six parameters, namely: i) black hole mass ($M_{BH}$) in units of $M_\odot$,
-ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{M}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
-$`\dot{M}_{\rm Edd}`$), iv) location of the shock ($X_s$ in $r_g$), v) compression ratio ($R=\rho_+ / \rho_-$, where $\rho_+$ and
+ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{m}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
+$`\dot{m}_{\rm Edd}`$), iv) location of the shock ($`X_s`$ in $`r_S=2GM_{BH}/c^2`$), v) compression ratio ($`R=\rho_+ / \rho_-`$, where $\rho_+$ and
 $\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. If one sets the 
 $`f_{\rm col}`$ parameter fixed to a very low value, say 0.001 in this current fits file, the model will be quite similar to TCAF.
 
@@ -36,7 +36,7 @@ The emergent spectrum from `JeTCAF` has four components; `(1)` a multicolor blac
 the disk by the hot corona (red), `(3)` a second hard component at the shoulder of the black-body bump is due to scattering of soft photons from the disc by the base of the jet (blue), and 
 `(4)` down-scattering of hard radiation from the corona by the bulk motion of the jet produces excess above 10 keV (indigo). This component also fits the Compton humps that are observed in reflection models.
 In this model, the same corona, which is producing hard radiation, is also launching a jet at its base. The jet/mass outflow rate is obtained after solving a series of coupled hydrodynamic equations; 
-thus, it naturally connects the disk and jet.
+thus, it naturally connects the disk and jet. Additionally, the reprocessing of coronal emissions by the disk is also taken into account iteratively which modifies the blackbody spectrum by modifying the disk temperature and, therefore deviates from the Shakura-Sunyaev type blackbody spectrum, which we start with.
 
 ## Link to FITS file
 
