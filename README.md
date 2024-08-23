@@ -11,8 +11,8 @@ To make the model available for the community, we planned to make `FITS` files u
 
 `JeTCAF` model has six parameters, namely: i) black hole mass ($M_{BH}$) in units of $M_\odot$,
 ii) Keplerian rate ($`\dot{m}_d`$ in units of $`\dot{m}_{\rm Edd}`$), iii) sub-Keplerian rate ($`\dot{m}_h`$ in units of
-$`\dot{m}_{\rm Edd}`$), iv) location of the shock ($`X_s`$ in $`r_S=2GM_{BH}/c^2`$), v) compression ratio ($`R=\rho_+ / \rho_-`$, where $\rho_+$ and
-$\rho_-$ are densities of post- and pre- shock matters) of the shock, and vi) jet collimation factor $`f_{\rm col}`$. If one sets the 
+$`\dot{m}_{\rm Edd}`$), iv) location of the shock ($`X_s`$ in $`r_S=2GM_{BH}/c^2`$) or the outer boundary of the corona, v) shock compression ratio ($`R=\rho_+ / \rho_-`$, where $\rho_+$ and
+$\rho_-$ are densities of post- and pre- shock matters) to take into account the effect of compression of the matter, and vi) jet collimation factor $`f_{\rm col}`$. If one sets the 
 $`f_{\rm col}`$ parameter fixed to a very low value, say 0.001 in this current fits file, the model will be quite similar to TCAF.
 
 
