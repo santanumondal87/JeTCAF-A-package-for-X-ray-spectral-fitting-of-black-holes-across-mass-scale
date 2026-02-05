@@ -16,14 +16,13 @@ $\rho_-$ are densities of post- and pre- shock matters) to take into account the
 $`f_{\rm col}`$ parameter fixed to a very low value, say 0.001 in this current fits file, the model will be quite similar to TCAF.
 
 
-According to `TCAF` or `JeTCAF`, spectra become soft with increasing disk mass accretion rate, when all other parameters are fixed and hard 
-with the increase in halo accretion rate. Increase in dynamic corona size or $X_s$, spectra become hard, however,
+According to `TCAF` or `JeTCAF`, spectra become soft with increasing disk mass accretion rate, when all other parameters are fixed, and hard 
+with the increase in halo accretion rate. Increase in dynamic corona size or $X_s$, spectra become hard; however,
 after a certain value of $X_s$ the scenario may change as the optical depth of the corona depends on $X_s$. Therefore, the above description is to get a
-zeroth order idea about the dependence of spectral shape with model parameters, however, when we fit data, parameters change in multidimensional space where things are highly non-linear. 
-Therefore, I suggest searching for parameters that seem physical and follow theoretical understanding.
+zeroth-order idea about the dependence of spectral shape on model parameters. Therefore, I suggest searching for the best-fitted parameters that are physical and follow theoretical understanding. Since, this is a physical model and directly fits the data, it provides a robust estimation of accretion-ejection parameters.
 
 
-A cartoon diagram of the `JeTCAF` model and corresponding spectral components are shown below. 
+A cartoon diagram of the `JeTCAF` model and corresponding spectral components is shown below. 
 
 
 
